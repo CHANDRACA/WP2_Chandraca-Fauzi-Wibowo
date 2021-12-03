@@ -61,7 +61,7 @@ form-control-user">
                             <option value="">Pilih Kategori</option>
                             <?php
                             $k =
-['Sains','Hobby','Komputer','Komunikasi','Hukum','Agama','Populer', '
+                                ['Sains', 'Hobby', 'Komputer', 'Komunikasi', 'Hukum', 'Agama', 'Populer', '
 Bahasa', 'Komik'];
                             for ($i = 0; $i < 9; $i++) { ?>
                                 <option value="<?= $k[$i]; ?>"><?=
